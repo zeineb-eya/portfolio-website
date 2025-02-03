@@ -41,7 +41,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Computer Science, <br/>
-          Ecole Supérieure Privée d'Ingénierie et de Technologies,
+          Ecole Supérieure Privée d&apos;Ingénierie et de Technologies,
           Ariana</li>
       </ul>
     ),
