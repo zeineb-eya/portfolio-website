@@ -11,42 +11,44 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "Projects",
-    value: "100",
+    metric: "Years Experience",
+    value: "3",
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    metric: "Projects Completed",
+    value: "8",
+    postfix: "+",
   },
   {
-    metric: "Awards",
-    value: "7",
+    metric: "Test Cases Executed",
+    value: "200",
+    postfix: "+",
   },
   {
-    metric: "Years",
-    value: "5",
+    metric: "Certifications",
+    value: "15",
+    postfix: "+",
   },
 ];
 
 const AchievementsSection = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
+      <div className="sm:border-light-border dark:sm:border-[#33353F] sm:border rounded-xl py-8 px-8 md:px-16 flex flex-col sm:flex-row items-center justify-between bg-light-surfaceAlt/50 dark:bg-[#181818]/50 backdrop-blur-sm shadow-lg">
         {achievementsList.map((achievement, index) => {
           return (
             <div
               key={index}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
-              <h2 className="text-white text-4xl font-bold flex flex-row">
+              <h2 className="text-light-text-primary dark:text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
                   includeComma
                   animateToNumber={parseInt(achievement.value)}
                   locale="en-US"
-                  className="text-white text-4xl font-bold"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600 text-4xl font-bold"
                   configs={(_, index) => {
                     return {
                       mass: 1,
@@ -57,7 +59,7 @@ const AchievementsSection = () => {
                 />
                 {achievement.postfix}
               </h2>
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              <p className="text-light-text-secondary dark:text-[#ADB7BE] text-sm md:text-base font-medium">{achievement.metric}</p>
             </div>
           );
         })}

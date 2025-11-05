@@ -1,0 +1,10 @@
+# Robots.txt for Zeineb Eya Rahmani Portfolio
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://zeineb-eya.dev/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

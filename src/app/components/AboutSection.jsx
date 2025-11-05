@@ -86,7 +86,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("education");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -96,41 +96,43 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+    <section className="text-light-text-primary dark:text-white py-16" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16">
+        <div className="relative w-full h-[400px] md:h-[500px] rounded-xl overflow-hidden bg-gradient-to-br from-light-pink-200 to-light-rose-200 dark:from-primary-900/30 dark:to-secondary-900/30 shadow-2xl flex items-center justify-center sticky top-24">
+          <Image 
+            src="/images/about-image.png" 
+            alt="Zeineb Eya Rahmani" 
+            width={500} 
+            height={500}
+            className="object-cover"
+          />
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            Results-driven Business Intelligence (BI) Engineer and ERP Analyst with a strong background in data analysis, machine learning, and quality assurance.
-            Proven expertise in transforming raw data into actionable insights, optimizing decision-making processes, and enhancing operational efficiency through ERP systems.
-            Skilled in BI tools (Power BI, Tableau, Looker), ERP platforms (SAP, Dynamics 365), and data integration (ETL, SQL, dbt).
-            Adept at leading cross-functional teams, managing complex data workflows, and delivering high-impact solutions that drive business success.
+          <h2 className="text-4xl font-bold mb-4">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600">
+              About Me
+            </span>
+          </h2>
+          <p className="text-base lg:text-lg text-light-text-secondary dark:text-gray-300 leading-relaxed">
+            Computer Science Engineer and Business Intelligence Analyst with <strong>3+ years of experience</strong> in Quality Assurance, Data Engineering, and Business Analysis. 
+            I build robust data pipelines, design interactive dashboards, and implement comprehensive testing frameworks. 
+            Passionate about leveraging data to drive business decisions and ensure software quality.
           </p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
+          <div className="flex flex-row flex-wrap justify-start mt-8 gap-2">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              {" "}
-              Certifications{" "}
+              Certifications
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 text-light-text-secondary dark:text-gray-300">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

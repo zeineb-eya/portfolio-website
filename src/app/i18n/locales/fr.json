@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "title": "Zeineb Eya Rahmani",
+    "subtitle": "Ingénieure en Informatique | Ingénieure QA | Ingénieure BI | Analyste d'Affaires",
+    "description": "Passionnée par l'analyse de données et la compréhension des besoins métier, spécialisée en Business Intelligence et Analyse d'Affaires.",
+    "cta": {
+      "contact": "Me Contacter",
+      "cv": "Télécharger CV",
+      "linktree": "Tous les Liens"
+    }
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "description": "Ingénieure en Informatique et Analyste Business Intelligence avec une expertise en ingénierie des données et assurance qualité. Je construis des pipelines de données robustes, conçois des tableaux de bord interactifs et implémente des frameworks de test complets. Basée à Tunis, Tunisie.",
+    "tabs": {
+      "skills": "Compétences",
+      "experience": "Expérience",
+      "certifications": "Certifications"
+    }
+  },
+  "projects": {
+    "title": "Projets Sélectionnés",
+    "subtitle": "Une collection de mes travaux couvrant l'apprentissage automatique, l'ingénierie des données, la business intelligence et DevOps",
+    "techStack": "Technologies",
+    "keyFeatures": "Caractéristiques Clés",
+    "viewCode": "Voir le Code",
+    "categories": {
+      "all": "Tous",
+      "ml": "Machine Learning",
+      "dataScience": "Data Science",
+      "dataEngineering": "Ingénierie de Données",
+      "bi": "Business Intelligence",
+      "devops": "DevOps",
+      "analytics": "Analytique",
+      "crm": "CRM"
+    }
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "subtitle": "Plus de 3 ans d'expérience en Assurance Qualité, Business Intelligence et Ingénierie de Données",
+    "current": "Actuel",
+    "years": "ans"
+  },
+  "skills": {
+    "title": "Compétences & Technologies",
+    "categories": {
+      "programming": "Programmation & Développement",
+      "testing": "Tests & QA",
+      "data": "Données & Business Intelligence",
+      "cloud": "Cloud & Infrastructure",
+      "management": "Gestion de Projet",
+      "business": "Analyse d'Affaires"
+    }
+  },
+  "contact": {
+    "title": "Restons en Contact",
+    "subtitle": "Je suis toujours ouverte pour discuter de nouvelles opportunités, collaborations, ou simplement échanger sur la tech et les données.",
+    "email": "Email",
+    "linktree": "Tous Mes Liens",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer",
+      "sending": "Envoi..."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

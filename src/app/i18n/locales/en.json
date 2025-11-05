@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Zeineb Eya Rahmani",
+    "subtitle": "Computer Science Engineer | QA Engineer | BI Engineer | Business Analyst",
+    "description": "Passionate about data analysis and understanding business needs, specializing in Business Intelligence and Business Analysis.",
+    "cta": {
+      "contact": "Contact Me",
+      "cv": "Download CV",
+      "linktree": "All Links"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Computer Science Engineer and Business Intelligence Analyst with expertise in data engineering and quality assurance. I build robust data pipelines, design interactive dashboards, and implement comprehensive testing frameworks. Based in Tunis, Tunisia.",
+    "tabs": {
+      "skills": "Skills",
+      "experience": "Experience",
+      "certifications": "Certifications"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A collection of my work spanning machine learning, data engineering, business intelligence, and DevOps",
+    "techStack": "Tech Stack",
+    "keyFeatures": "Key Features",
+    "viewCode": "View Code",
+    "categories": {
+      "all": "All",
+      "ml": "Machine Learning",
+      "dataScience": "Data Science",
+      "dataEngineering": "Data Engineering",
+      "bi": "Business Intelligence",
+      "devops": "DevOps",
+      "analytics": "Analytics",
+      "crm": "CRM"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "3+ years of experience in Quality Assurance, Business Intelligence, and Data Engineering",
+    "current": "Current",
+    "years": "years"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": {
+      "programming": "Programming & Development",
+      "testing": "Testing & QA",
+      "data": "Data & Business Intelligence",
+      "cloud": "Cloud & Infrastructure",
+      "management": "Project Management",
+      "business": "Business Analysis"
+    }
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "I'm always open to discussing new opportunities, collaborations, or just having a chat about tech and data.",
+    "email": "Email",
+    "linktree": "All My Links",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

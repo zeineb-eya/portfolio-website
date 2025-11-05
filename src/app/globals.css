@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --toast-bg: #ffffff;
+  --toast-color: #2D1B2E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +16,11 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+.dark {
+  --toast-bg: #1a1a1a;
+  --toast-color: #ffffff;
 }
 
 body {
