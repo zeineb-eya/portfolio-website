@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import { useLanguage } from '../i18n/LanguageContext';
 
 const TAB_DATA = [
   {
@@ -86,6 +87,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
+  const { t } = useLanguage();
   const [tab, setTab] = useState("education");
   const [isPending, startTransition] = useTransition();
 
@@ -110,26 +112,22 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600">
-              About Me
+              {t('aboutSection.title')}
             </span>
           </h2>
-          <p className="text-base lg:text-lg text-light-text-secondary dark:text-gray-300 leading-relaxed">
-            Computer Science Engineer and Business Intelligence Analyst with <strong>3+ years of experience</strong> in Quality Assurance, Data Engineering, and Business Analysis. 
-            I build robust data pipelines, design interactive dashboards, and implement comprehensive testing frameworks. 
-            Passionate about leveraging data to drive business decisions and ensure software quality.
-          </p>
+          <p className="text-base lg:text-lg text-light-text-secondary dark:text-gray-300 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('aboutSection.description') }} />
           <div className="flex flex-row flex-wrap justify-start mt-8 gap-2">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              Education
+              {t('aboutSection.education')}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              Certifications
+              {t('aboutSection.certifications')}
             </TabButton>
           </div>
           <div className="mt-8 text-light-text-secondary dark:text-gray-300">

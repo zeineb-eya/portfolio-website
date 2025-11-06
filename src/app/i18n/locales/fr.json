@@ -10,7 +10,7 @@
     "greeting": "Bonjour, je suis",
     "title": "Zeineb Eya Rahmani",
     "subtitle": "Ingénieure en Informatique | Ingénieure QA | Ingénieure BI | Analyste d'Affaires",
-    "description": "Passionnée par l'analyse de données et la compréhension des besoins métier, spécialisée en Business Intelligence et Analyse d'Affaires.",
+    "description": "Ingénieure en Informatique avec <strong>3+ ans d'expérience</strong> en Assurance Qualité, Business Intelligence et Ingénierie de Données. Basée à <strong>Tunis, Tunisie</strong> 🇹🇳",
     "cta": {
       "contact": "Me Contacter",
       "cv": "Télécharger CV",
@@ -75,6 +75,186 @@
     }
   },
   "footer": {
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "linktree": "Linktree"
+  },
+  "aboutSection": {
+    "title": "À Propos de Moi",
+    "description": "Ingénieure en Informatique et Analyste Business Intelligence avec <strong>3+ ans d'expérience</strong> en Assurance Qualité, Ingénierie de Données et Analyse d'Affaires. Je construis des pipelines de données robustes, conçois des tableaux de bord interactifs et implémente des frameworks de test complets. Passionnée par l'exploitation des données pour prendre des décisions commerciales et assurer la qualité des logiciels.",
+    "education": "Formation",
+    "certifications": "Certifications",
+    "skills": "Compétences",
+    "technicalSkills": "Compétences Techniques:",
+    "businessTools": "Outils Métier & Business:",
+    "softSkills": "Compétences Interpersonnelles:",
+    "programming": "Programmation:",
+    "databases": "Bases de données:",
+    "etl": "ETL & Intégration:",
+    "cloud": "Cloud:",
+    "dataAnalysis": "Analyse de Données:",
+    "testing": "Tests:",
+    "biTools": "Outils BI:",
+    "erpCrm": "ERP & CRM:",
+    "projectManagement": "Gestion de Projet:",
+    "marketing": "Marketing:",
+    "design": "Design:",
+    "softSkillsList": "Présentation, Travail d'équipe, Résolution de problèmes, Souci du détail, Organisation",
+    "educationContent": "Informatique, Ecole Supérieure Privée d'Ingénierie et de Technologies, Ariana"
+  },
+  "emailSection": {
+    "title": "Restons en Contact",
+    "description": "Je suis toujours ouverte pour discuter de nouvelles opportunités, collaborations, ou simplement échanger sur la tech et les données. Que vous ayez une question ou vouliez simplement dire bonjour, je ferai de mon mieux pour vous répondre!",
+    "emailLabel": "Email:",
+    "locationLabel": "Localisation:",
+    "location": "La Marsa, Tunis, Tunisie",
+    "yourEmail": "Votre email",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "Juste pour dire bonjour",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Parlons de...",
+    "sendButton": "Envoyer le Message",
+    "sendingButton": "Envoi en cours...",
+    "successMessage": "Message envoyé avec succès! Je vous répondrai bientôt.",
+    "errorFillFields": "Veuillez remplir tous les champs",
+    "errorSendFailed": "Échec de l'envoi du message. Veuillez réessayer.",
+    "errorGeneral": "Une erreur s'est produite. Veuillez réessayer ou m'envoyer un email directement.",
+    "visitLinktree": "Visitez Mon Linktree",
+    "successTitle": "✓ Email envoyé avec succès! Je vous répondrai bientôt."
+  },
+  "projectsData": {
+    "project1": {
+      "title": "Apprentissage Automatique pour la Découverte de Médicaments Computationnelle",
+      "description": "Un flux de travail complet d'apprentissage automatique pour la découverte de médicaments computationnelle utilisant les données ChEMBL, appliquant des techniques de ML pour prédire la bioactivité des composés chimiques.",
+      "features": [
+        "Récupération de données depuis la base ChEMBL",
+        "Analyse exploratoire des données",
+        "Calcul de descripteurs moléculaires",
+        "Modélisation de régression et comparaison"
+      ]
+    },
+    "project2": {
+      "title": "Application de Prédiction de Bioactivité pour l'Acétylcholinestérase",
+      "description": "Application web pour prédire la bioactivité des composés chimiques contre l'Acétylcholinestérase, une cible médicamenteuse clé pour le traitement de la maladie d'Alzheimer.",
+      "features": [
+        "Traitement d'entrée SMILES",
+        "Calcul de descripteurs moléculaires",
+        "Prédiction basée sur ML",
+        "Interface interactive avec export de résultats"
+      ]
+    },
+    "project3": {
+      "title": "InsightFlow: Pipeline de Données de Vente au Détail en Ligne",
+      "description": "Pipeline d'ingénierie de données de bout en bout pour traiter et analyser les données de vente au détail en ligne avec des contrôles de qualité automatisés.",
+      "features": [
+        "Ingestion automatique des données",
+        "Contrôles de qualité des données avec Soda",
+        "Modélisation des données avec dbt",
+        "Tableaux de bord de reporting métier"
+      ]
+    },
+    "project4": {
+      "title": "Tableau de Bord d'Analyse des Ventes de Café",
+      "description": "Un tableau de bord d'analyse complet basé sur Excel pour les données de ventes de café avec analyse et visualisation multidimensionnelles.",
+      "features": [
+        "Suivi des revenus par mois",
+        "Analyse par catégorie de produit",
+        "Performance basée sur la localisation",
+        "Modèles de ventes horaires avec filtrage interactif"
+      ]
+    },
+    "project5": {
+      "title": "Pipeline DevOps pour Spring Boot",
+      "description": "Pipeline CI/CD robuste pour automatiser les processus de construction, test et déploiement pour les applications Spring Boot.",
+      "features": [
+        "Intégration et déploiement continus",
+        "Tests automatisés avec JUnit",
+        "Analyse de qualité de code avec SonarQube",
+        "Conteneurisation et surveillance"
+      ]
+    },
+    "project6": {
+      "title": "Tableau de Bord des Indicateurs de Développement Mondial",
+      "description": "Tableau de bord de business intelligence analysant les indicateurs de développement durable et les impacts du COVID-19 à travers plusieurs dimensions.",
+      "features": [
+        "Visualisations interactives",
+        "Intégration de sources multiples",
+        "Analytique prédictive",
+        "Analyse de l'impact du COVID-19"
+      ]
+    },
+    "project7": {
+      "title": "CRM Dynamics pour l'Immobilier",
+      "description": "Solution CRM personnalisée pour la gestion immobilière avec flux de travail automatisés et processus métier.",
+      "features": [
+        "Modélisation d'entités personnalisées",
+        "Comportements de formulaires dynamiques",
+        "Automatisation des processus",
+        "Gestion de la relation client"
+      ]
+    },
+    "project8": {
+      "title": "Simulation de Travail de Data Science BCG",
+      "description": "Simulation complète d'analyse de désabonnement de clients, démontrant des compétences avancées en analyse de données et atteignant un taux de précision de 85% dans la prédiction du désabonnement client.",
+      "features": [
+        "Prédiction du désabonnement client",
+        "Ingénierie des caractéristiques",
+        "Évaluation du modèle (85% de précision)",
+        "Recommandations commerciales"
+      ]
+    }
+  },
+  "experienceData": {
+    "exp1": {
+      "title": "Ingénieure Assurance Qualité Logicielle",
+      "company": "Uvey",
+      "location": "Centre Urban Nord, Ariana, Tunisie",
+      "period": "Avril 2025 – Présent",
+      "highlights": [
+        "Effectue des tests fonctionnels, de régression et d'API pour la plateforme de comptabilité SaaS (Quarkus, React)",
+        "Construit et maintient des tests automatisés avec Playwright et reporting Allure",
+        "Intègre et valide les fonctionnalités pilotées par l'IA en utilisant l'ingénierie de prompts",
+        "Surveille la santé du système avec les tableaux de bord Grafana et Prometheus",
+        "Gère les boards ClickUp et assure la traçabilité du cycle de vie des tâches"
+      ]
+    },
+    "exp2": {
+      "title": "Ingénieure Business Intelligence",
+      "company": "WeCraft",
+      "location": "Centre Urban Nord, Ariana, Tunisie",
+      "period": "Février 2024 – Septembre 2024",
+      "highlights": [
+        "Conçu des pipelines ETL évolutifs avec Apache Airflow et dbt, augmentant l'efficacité de 40%",
+        "Implémenté des pipelines CI/CD utilisant Docker et GitLab CI",
+        "Centralisé les jeux de données financiers dans BigQuery pour une meilleure gouvernance des données",
+        "Implémenté la détection d'anomalies pilotée par ML, réduisant les incidents de fraude de 20%",
+        "Conçu des tableaux de bord interactifs améliorant l'efficacité de prise de décision de 30%"
+      ]
+    },
+    "exp3": {
+      "title": "Ingénieure Assurance Qualité Logicielle",
+      "company": "WeCraft",
+      "location": "Centre Urban Nord, Ariana, Tunisie",
+      "period": "Octobre 2022 – Septembre 2024",
+      "highlights": [
+        "Exécuté 200+ cas de tests manuels/automatisés atteignant un taux d'identification de défauts de 90%",
+        "Utilisé Kibana et Elasticsearch pour une analyse complète des logs",
+        "Réduit le délai de résolution des défauts de 30% grâce à une documentation complète",
+        "Construit un tableau de bord de résolution de défauts en temps réel avec intégration Trello",
+        "Assisté dans le débogage de 50+ problèmes utilisant Quarkus et Angular"
+      ]
+    },
+    "exp4": {
+      "title": "Stagiaire Analyste Assurance Qualité Logicielle",
+      "company": "Deepnrise",
+      "location": "Centre Urban Nord, Ariana, Tunisie",
+      "period": "Juin 2022 – Août 2022",
+      "highlights": [
+        "Examiné les spécifications système pour la plateforme Industrie 4.0",
+        "Exécuté 150+ cas de tests manuels/automatisés avec 95% d'adhérence à la qualité",
+        "Réduit le temps de correction des bugs de 25% grâce à des rapports détaillés",
+        "Effectué des tests post-lancement réduisant les défauts de 15%"
+      ]
+    }
   }
 }

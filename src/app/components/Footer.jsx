@@ -1,8 +1,12 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { useLanguage } from '../i18n/LanguageContext';
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="footer border-t border-light-border dark:border-[#33353F] z-10 bg-light-surface dark:bg-[#121212] text-light-text-primary dark:text-white">
       <div className="container p-8 md:p-12">
@@ -12,7 +16,7 @@ const Footer = () => {
               Zeineb Eya Rahmani
             </span>
             <p className="text-sm text-light-text-secondary dark:text-slate-400 mt-1">
-              © 2025 All rights reserved.
+              © 2025 {t('footer.rights')}
             </p>
           </div>
           
@@ -57,7 +61,7 @@ const Footer = () => {
                 className="px-4 py-2 rounded-full bg-gradient-to-r from-light-pink-500 to-light-rose-500 dark:from-primary-500 dark:to-secondary-500 text-white text-sm font-medium hover:shadow-lg transition-all"
                 aria-label="Linktree"
               >
-                Linktree
+                {t('footer.linktree')}
               </Link>
             </div>
           </div>

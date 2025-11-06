@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { useLanguage } from '../i18n/LanguageContext';
 
 const projectsData = [
   {
@@ -128,6 +129,7 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
+  const { t } = useLanguage();
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -149,11 +151,11 @@ const ProjectsSection = () => {
       <section id="projects" className="py-8">
         <h2 className="text-center text-4xl font-bold text-light-text-primary dark:text-white mt-4 mb-4 md:mb-6">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600">
-            Featured Projects
+            {t('projects.title')}
           </span>
         </h2>
         <p className="text-light-text-secondary dark:text-[#ADB7BE] text-center mb-8 max-w-2xl mx-auto">
-          A collection of my work spanning machine learning, data engineering, business intelligence, and DevOps
+          {t('projects.subtitle')}
         </p>
         <div className="text-light-text-primary dark:text-white flex flex-row flex-wrap justify-center items-center gap-2 py-6">
           <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />

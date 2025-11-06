@@ -10,7 +10,7 @@
     "greeting": "Hello, I'm",
     "title": "Zeineb Eya Rahmani",
     "subtitle": "Computer Science Engineer | QA Engineer | BI Engineer | Business Analyst",
-    "description": "Passionate about data analysis and understanding business needs, specializing in Business Intelligence and Business Analysis.",
+    "description": "Computer Science Engineer with <strong>3+ years of experience</strong> in Quality Assurance, Business Intelligence, and Data Engineering. Based in <strong>Tunis, Tunisia</strong> 🇹🇳",
     "cta": {
       "contact": "Contact Me",
       "cv": "Download CV",
@@ -75,6 +75,186 @@
     }
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "linktree": "Linktree"
+  },
+  "aboutSection": {
+    "title": "About Me",
+    "description": "Computer Science Engineer and Business Intelligence Analyst with <strong>3+ years of experience</strong> in Quality Assurance, Data Engineering, and Business Analysis. I build robust data pipelines, design interactive dashboards, and implement comprehensive testing frameworks. Passionate about leveraging data to drive business decisions and ensure software quality.",
+    "education": "Education",
+    "certifications": "Certifications",
+    "skills": "Skills",
+    "technicalSkills": "Technical Skills:",
+    "businessTools": "Business & Tools:",
+    "softSkills": "Soft Skills:",
+    "programming": "Programming:",
+    "databases": "Databases:",
+    "etl": "ETL & Integration:",
+    "cloud": "Cloud:",
+    "dataAnalysis": "Data Analysis:",
+    "testing": "Testing:",
+    "biTools": "BI Tools:",
+    "erpCrm": "ERP & CRM:",
+    "projectManagement": "Project Management:",
+    "marketing": "Marketing:",
+    "design": "Design:",
+    "softSkillsList": "Presentation, Teamwork, Problem Solving, Detail-Oriented, Organization",
+    "educationContent": "Computer Science, Ecole Supérieure Privée d'Ingénierie et de Technologies, Ariana"
+  },
+  "emailSection": {
+    "title": "Let's Connect",
+    "description": "I'm always open to discussing new opportunities, collaborations, or just having a chat about tech and data. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "emailLabel": "Email:",
+    "locationLabel": "Location:",
+    "location": "La Marsa, Tunis, Tunisia",
+    "yourEmail": "Your email",
+    "emailPlaceholder": "your.email@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Just saying hi",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Let's talk about...",
+    "sendButton": "Send Message",
+    "sendingButton": "Sending...",
+    "successMessage": "Email sent successfully! I'll get back to you soon.",
+    "errorFillFields": "Please fill in all fields",
+    "errorSendFailed": "Failed to send message. Please try again.",
+    "errorGeneral": "An error occurred. Please try again or email me directly.",
+    "visitLinktree": "Visit My Linktree",
+    "successTitle": "✓ Email sent successfully! I'll get back to you soon."
+  },
+  "projectsData": {
+    "project1": {
+      "title": "Machine Learning for Computational Drug Discovery",
+      "description": "A comprehensive machine learning workflow for computational drug discovery using ChEMBL data, applying ML techniques to predict bioactivity of chemical compounds.",
+      "features": [
+        "Data retrieval from ChEMBL database",
+        "Exploratory data analysis",
+        "Molecular descriptor calculation",
+        "Regression modeling and comparison"
+      ]
+    },
+    "project2": {
+      "title": "Bioactivity Prediction App for Acetylcholinesterase",
+      "description": "Web application for predicting bioactivity of chemical compounds against Acetylcholinesterase, a key drug target for Alzheimer's disease treatment.",
+      "features": [
+        "SMILES input processing",
+        "Molecular descriptor calculation",
+        "ML-based prediction",
+        "Interactive UI with results export"
+      ]
+    },
+    "project3": {
+      "title": "InsightFlow: Online Retail Data Pipeline",
+      "description": "End-to-end data engineering pipeline for processing and analyzing online retail data with automated quality checks.",
+      "features": [
+        "Automated data ingestion",
+        "Data quality checks with Soda",
+        "Data modeling with dbt",
+        "Business reporting dashboards"
+      ]
+    },
+    "project4": {
+      "title": "Coffee Shop Sales Analytics Dashboard",
+      "description": "A comprehensive Excel-based analytics dashboard for coffee shop sales data with multi-dimensional analysis and visualization.",
+      "features": [
+        "Revenue tracking by month",
+        "Product category analysis",
+        "Location-based performance",
+        "Hourly sales patterns with interactive filtering"
+      ]
+    },
+    "project5": {
+      "title": "DevOps Pipeline for Spring Boot",
+      "description": "Robust CI/CD pipeline for automating build, test, and deployment processes for Spring Boot applications.",
+      "features": [
+        "Continuous integration and deployment",
+        "Automated testing with JUnit",
+        "Code quality analysis with SonarQube",
+        "Containerization and monitoring"
+      ]
+    },
+    "project6": {
+      "title": "World Development Indicators Dashboard",
+      "description": "Business intelligence dashboard analyzing sustainable development indicators and COVID-19 impacts across multiple dimensions.",
+      "features": [
+        "Interactive visualizations",
+        "Multi-source data integration",
+        "Predictive analytics",
+        "COVID-19 impact analysis"
+      ]
+    },
+    "project7": {
+      "title": "Dynamics CRM for Real Estate",
+      "description": "Custom CRM solution for real estate management with automated workflows and business process flows.",
+      "features": [
+        "Custom entity modeling",
+        "Dynamic form behaviors",
+        "Process automation",
+        "Customer relationship management"
+      ]
+    },
+    "project8": {
+      "title": "BCG Data Science Job Simulation",
+      "description": "Completed a customer churn analysis simulation, demonstrating advanced data analytics skills and achieving an 85% accuracy rate in predicting customer churn.",
+      "features": [
+        "Customer churn prediction",
+        "Feature engineering",
+        "Model evaluation (85% accuracy)",
+        "Business recommendations"
+      ]
+    }
+  },
+  "experienceData": {
+    "exp1": {
+      "title": "Software Quality Assurance Engineer",
+      "company": "Uvey",
+      "location": "Centre Urban Nord, Ariana, Tunisia",
+      "period": "April 2025 – Present",
+      "highlights": [
+        "Conduct functional, regression, and API testing for SaaS accounting platform (Quarkus, React)",
+        "Build and maintain automated tests using Playwright with Allure reporting",
+        "Integrate and validate AI-driven features using prompt engineering",
+        "Monitor system health with Grafana and Prometheus dashboards",
+        "Manage ClickUp boards and ensure traceable task lifecycles"
+      ]
+    },
+    "exp2": {
+      "title": "Business Intelligence Engineer",
+      "company": "WeCraft",
+      "location": "Centre Urban Nord, Ariana, Tunisia",
+      "period": "February 2024 – September 2024",
+      "highlights": [
+        "Designed scalable ETL pipelines with Apache Airflow and dbt, boosting efficiency by 40%",
+        "Implemented CI/CD pipelines using Docker and GitLab CI",
+        "Centralized financial datasets in BigQuery for enhanced data governance",
+        "Implemented ML-driven anomaly detection, reducing fraud incidents by 20%",
+        "Designed interactive dashboards improving decision-making efficiency by 30%"
+      ]
+    },
+    "exp3": {
+      "title": "Software Quality Assurance Engineer",
+      "company": "WeCraft",
+      "location": "Centre Urban Nord, Ariana, Tunisia",
+      "period": "October 2022 – September 2024",
+      "highlights": [
+        "Executed 200+ manual/automated test cases achieving 90% defect-identification rate",
+        "Leveraged Kibana and Elasticsearch for comprehensive log analysis",
+        "Reduced defect resolution turnaround by 30% through comprehensive documentation",
+        "Built real-time defect-resolution dashboard with Trello integration",
+        "Assisted in debugging 50+ issues using Quarkus and Angular"
+      ]
+    },
+    "exp4": {
+      "title": "Software Quality Assurance Analyst Intern",
+      "company": "Deepnrise",
+      "location": "Centre Urban Nord, Ariana, Tunisia",
+      "period": "June 2022 – August 2022",
+      "highlights": [
+        "Reviewed system specifications for Industry 4.0 platform",
+        "Executed 150+ manual/automated test cases with 95% quality adherence",
+        "Reduced bug-fix turnaround time by 25% through detailed reporting",
+        "Performed post-release testing cutting defects by 15%"
+      ]
+    }
   }
 }

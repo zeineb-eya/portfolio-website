@@ -5,65 +5,43 @@ import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../i18n/LanguageContext';
 import { BriefcaseIcon, CalendarIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
-const experiences = [
+// Using translation keys for experience data
+const getExperiences = (t) => [
   {
     id: 1,
-    title: "Software Quality Assurance Engineer",
-    company: "Uvey",
-    location: "Centre Urban Nord, Ariana, Tunisia",
-    period: "April 2025 – Present",
+    title: t('experienceData.exp1.title'),
+    company: t('experienceData.exp1.company'),
+    location: t('experienceData.exp1.location'),
+    period: t('experienceData.exp1.period'),
     current: true,
-    highlights: [
-      "Conduct functional, regression, and API testing for SaaS accounting platform (Quarkus, React)",
-      "Build and maintain automated tests using Playwright with Allure reporting",
-      "Integrate and validate AI-driven features using prompt engineering",
-      "Monitor system health with Grafana and Prometheus dashboards",
-      "Manage ClickUp boards and ensure traceable task lifecycles"
-    ]
+    highlights: t('experienceData.exp1.highlights')
   },
   {
     id: 2,
-    title: "Business Intelligence Engineer",
-    company: "WeCraft",
-    location: "Centre Urban Nord, Ariana, Tunisia",
-    period: "February 2024 – September 2024",
+    title: t('experienceData.exp2.title'),
+    company: t('experienceData.exp2.company'),
+    location: t('experienceData.exp2.location'),
+    period: t('experienceData.exp2.period'),
     current: false,
-    highlights: [
-      "Designed scalable ETL pipelines with Apache Airflow and dbt, boosting efficiency by 40%",
-      "Implemented CI/CD pipelines using Docker and GitLab CI",
-      "Centralized financial datasets in BigQuery for enhanced data governance",
-      "Implemented ML-driven anomaly detection, reducing fraud incidents by 20%",
-      "Designed interactive dashboards improving decision-making efficiency by 30%"
-    ]
+    highlights: t('experienceData.exp2.highlights')
   },
   {
     id: 3,
-    title: "Software Quality Assurance Engineer",
-    company: "WeCraft",
-    location: "Centre Urban Nord, Ariana, Tunisia",
-    period: "October 2022 – September 2024",
+    title: t('experienceData.exp3.title'),
+    company: t('experienceData.exp3.company'),
+    location: t('experienceData.exp3.location'),
+    period: t('experienceData.exp3.period'),
     current: false,
-    highlights: [
-      "Executed 200+ manual/automated test cases achieving 90% defect-identification rate",
-      "Leveraged Kibana and Elasticsearch for comprehensive log analysis",
-      "Reduced defect resolution turnaround by 30% through comprehensive documentation",
-      "Built real-time defect-resolution dashboard with Trello integration",
-      "Assisted in debugging 50+ issues using Quarkus and Angular"
-    ]
+    highlights: t('experienceData.exp3.highlights')
   },
   {
     id: 4,
-    title: "Software Quality Assurance Analyst Intern",
-    company: "Deepnrise",
-    location: "Centre Urban Nord, Ariana, Tunisia",
-    period: "June 2022 – August 2022",
+    title: t('experienceData.exp4.title'),
+    company: t('experienceData.exp4.company'),
+    location: t('experienceData.exp4.location'),
+    period: t('experienceData.exp4.period'),
     current: false,
-    highlights: [
-      "Reviewed system specifications for Industry 4.0 platform",
-      "Executed 150+ manual/automated test cases with 95% quality adherence",
-      "Reduced bug-fix turnaround time by 25% through detailed reporting",
-      "Performed post-release testing cutting defects by 15%"
-    ]
+    highlights: t('experienceData.exp4.highlights')
   }
 ];
 
@@ -71,6 +49,7 @@ const ExperienceSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const { t } = useLanguage();
+  const experiences = getExperiences(t);
 
   return (
     <section id="experience" className="py-16">

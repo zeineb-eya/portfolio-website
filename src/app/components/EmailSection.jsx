@@ -5,8 +5,10 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import toast, { Toaster } from 'react-hot-toast';
+import { useLanguage } from '../i18n/LanguageContext';
 
 const EmailSection = () => {
+  const { t } = useLanguage();
   const [emailSubmitted, setEmailSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -22,7 +24,7 @@ const EmailSection = () => {
 
     // Validation
     if (!data.email || !data.subject || !data.message) {
-      toast.error("Please fill in all fields");
+      toast.error(t('emailSection.errorFillFields'));
       setIsLoading(false);
       return;
     }
@@ -43,15 +45,15 @@ const EmailSection = () => {
       const resData = await response.json();
 
       if (response.ok && resData.success) {
-        toast.success("Message sent successfully! I'll get back to you soon.");
+        toast.success(t('emailSection.successMessage'));
         setEmailSubmitted(true);
         e.target.reset();
       } else {
-        toast.error(resData.error || "Failed to send message. Please try again.");
+        toast.error(resData.error || t('emailSection.errorSendFailed'));
       }
     } catch (error) {
       console.error("Error sending email:", error);
-      toast.error("An error occurred. Please try again or email me directly.");
+      toast.error(t('emailSection.errorGeneral'));
     } finally {
       setIsLoading(false);
     }
@@ -88,22 +90,21 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-3xl font-bold text-light-text-primary dark:text-white my-2 mb-4">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600">
-            Let&apos;s Connect
+            {t('emailSection.title')}
           </span>
         </h5>
         <p className="text-light-text-secondary dark:text-[#ADB7BE] mb-6 max-w-md text-base leading-relaxed">
-          I&apos;m always open to discussing new opportunities, collaborations, or just having a chat about tech and data. 
-          Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+          {t('emailSection.description')}
         </p>
         <div className="mb-6">
-          <p className="text-light-text-primary dark:text-white font-semibold mb-2">Email:</p>
+          <p className="text-light-text-primary dark:text-white font-semibold mb-2">{t('emailSection.emailLabel')}</p>
           <a href="mailto:zeineb.eya.rahmani@outlook.com" className="text-light-pink-600 dark:text-primary-400 hover:underline">
             zeineb.eya.rahmani@outlook.com
           </a>
         </div>
         <div className="mb-6">
-          <p className="text-light-text-primary dark:text-white font-semibold mb-2">Location:</p>
-          <p className="text-light-text-secondary dark:text-[#ADB7BE]">La Marsa, Tunis, Tunisia</p>
+          <p className="text-light-text-primary dark:text-white font-semibold mb-2">{t('emailSection.locationLabel')}</p>
+          <p className="text-light-text-secondary dark:text-[#ADB7BE]">{t('emailSection.location')}</p>
         </div>
         <div className="socials flex flex-row gap-3">
           <Link 
@@ -144,13 +145,13 @@ const EmailSection = () => {
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.182c5.423 0 9.818 4.395 9.818 9.818s-4.395 9.818-9.818 9.818S2.182 17.423 2.182 12 6.577 2.182 12 2.182zM8.182 7.636v8.728h1.091V7.636H8.182zm6.545 0v8.728h1.091V7.636h-1.091z"/>
           </svg>
-          Visit My Linktree
+          {t('emailSection.visitLinktree')}
         </Link>
       </div>
       <div className="z-10">
         {emailSubmitted ? (
           <p className="text-green-600 dark:text-green-500 text-lg font-semibold mt-2 p-4 bg-green-100 dark:bg-green-900/20 rounded-lg">
-            ✓ Email sent successfully! I&apos;ll get back to you soon.
+            {t('emailSection.successTitle')}
           </p>
         ) : (
           <form className="flex flex-col bg-light-surface dark:bg-[#18191E] p-6 rounded-xl border border-light-border dark:border-[#33353F] shadow-lg" onSubmit={handleSubmit}>
@@ -159,7 +160,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-light-text-primary dark:text-white block mb-2 text-sm font-semibold"
               >
-                Your email
+                {t('emailSection.yourEmail')}
               </label>
               <input
                 name="email"
@@ -167,7 +168,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-light-bg dark:bg-[#18191E] border border-light-border dark:border-[#33353F] placeholder-light-text-tertiary dark:placeholder-[#9CA2A9] text-light-text-primary dark:text-gray-100 text-sm rounded-lg block w-full p-3 focus:ring-2 focus:ring-light-pink-500 dark:focus:ring-primary-500 focus:outline-none transition-all"
-                placeholder="your.email@example.com"
+                placeholder={t('emailSection.emailPlaceholder')}
               />
             </div>
             <div className="mb-6">
@@ -175,7 +176,7 @@ const EmailSection = () => {
                 htmlFor="subject"
                 className="text-light-text-primary dark:text-white block text-sm mb-2 font-semibold"
               >
-                Subject
+                {t('emailSection.subjectLabel')}
               </label>
               <input
                 name="subject"
@@ -183,7 +184,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-light-bg dark:bg-[#18191E] border border-light-border dark:border-[#33353F] placeholder-light-text-tertiary dark:placeholder-[#9CA2A9] text-light-text-primary dark:text-gray-100 text-sm rounded-lg block w-full p-3 focus:ring-2 focus:ring-light-pink-500 dark:focus:ring-primary-500 focus:outline-none transition-all"
-                placeholder="Just saying hi"
+                placeholder={t('emailSection.subjectPlaceholder')}
               />
             </div>
             <div className="mb-6">
@@ -191,14 +192,14 @@ const EmailSection = () => {
                 htmlFor="message"
                 className="text-light-text-primary dark:text-white block text-sm mb-2 font-semibold"
               >
-                Message
+                {t('emailSection.messageLabel')}
               </label>
               <textarea
                 name="message"
                 id="message"
                 rows="5"
                 className="bg-light-bg dark:bg-[#18191E] border border-light-border dark:border-[#33353F] placeholder-light-text-tertiary dark:placeholder-[#9CA2A9] text-light-text-primary dark:text-gray-100 text-sm rounded-lg block w-full p-3 focus:ring-2 focus:ring-light-pink-500 dark:focus:ring-primary-500 focus:outline-none transition-all"
-                placeholder="Let's talk about..."
+                placeholder={t('emailSection.messagePlaceholder')}
                 required
               />
             </div>
@@ -213,10 +214,10 @@ const EmailSection = () => {
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
-                  Sending...
+                  {t('emailSection.sendingButton')}
                 </>
               ) : (
-                "Send Message"
+                t('emailSection.sendButton')
               )}
             </button>
           </form>
