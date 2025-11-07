@@ -10,7 +10,7 @@
     "greeting": "Hello, I'm",
     "title": "Zeineb Eya Rahmani",
     "subtitle": "Computer Science Engineer | QA Engineer | BI Engineer | Business Analyst",
-    "description": "Computer Science Engineer with <strong>3+ years of experience</strong> in Quality Assurance, Business Intelligence, and Data Engineering. Based in <strong>Tunis, Tunisia</strong> 🇹🇳",
+    "description": "Computer Science Engineer with <strong>3+ years of experience</strong> in Quality Assurance and Business Intelligence. Based in <strong>Tunis, Tunisia</strong> 🇹🇳",
     "cta": {
       "contact": "Contact Me",
       "cv": "Download CV",
@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Professional Experience",
-    "subtitle": "3+ years of experience in Quality Assurance, Business Intelligence, and Data Engineering",
+    "subtitle": "3+ years of experience in Quality Assurance and Business Intelligence",
     "current": "Current",
     "years": "years"
   },
@@ -99,7 +99,7 @@
     "marketing": "Marketing:",
     "design": "Design:",
     "softSkillsList": "Presentation, Teamwork, Problem Solving, Detail-Oriented, Organization",
-    "educationContent": "Computer Science, Ecole Supérieure Privée d'Ingénierie et de Technologies, Ariana"
+    "educationContent": "Computer Science, The Private Higher School of Engineering and Technology (ESPRIT), Ariana"
   },
   "emailSection": {
     "title": "Let's Connect",

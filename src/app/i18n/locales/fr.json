@@ -10,7 +10,7 @@
     "greeting": "Bonjour, je suis",
     "title": "Zeineb Eya Rahmani",
     "subtitle": "Ingénieure en Informatique | Ingénieure QA | Ingénieure BI | Analyste d'Affaires",
-    "description": "Ingénieure en Informatique avec <strong>3+ ans d'expérience</strong> en Assurance Qualité, Business Intelligence et Ingénierie de Données. Basée à <strong>Tunis, Tunisie</strong> 🇹🇳",
+    "description": "Ingénieure en Informatique avec <strong>3+ ans d'expérience</strong> en Assurance Qualité et Business Intelligence. Basée à <strong>Tunis, Tunisie</strong> 🇹🇳",
     "cta": {
       "contact": "Me Contacter",
       "cv": "Télécharger CV",
@@ -45,7 +45,7 @@
   },
   "experience": {
     "title": "Expérience Professionnelle",
-    "subtitle": "Plus de 3 ans d'expérience en Assurance Qualité, Business Intelligence et Ingénierie de Données",
+    "subtitle": "Plus de 3 ans d'expérience en Assurance Qualité et Business Intelligence",
     "current": "Actuel",
     "years": "ans"
   },
@@ -99,7 +99,7 @@
     "marketing": "Marketing:",
     "design": "Design:",
     "softSkillsList": "Présentation, Travail d'équipe, Résolution de problèmes, Souci du détail, Organisation",
-    "educationContent": "Informatique, Ecole Supérieure Privée d'Ingénierie et de Technologies, Ariana"
+    "educationContent": "Informatique, Ecole Supérieure Privée d'Ingénierie et de Technologies (ESPRIT), Ariana"
   },
   "emailSection": {
     "title": "Restons en Contact",

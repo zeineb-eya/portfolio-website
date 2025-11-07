@@ -19,28 +19,24 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-light-text-primary dark:text-white mb-4 text-3xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+          <h1 className="text-light-text-primary dark:text-white mb-4 text-3xl sm:text-5xl lg:text-7xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-light-pink-600 to-light-rose-600 dark:from-primary-400 dark:to-secondary-600">
               {t('hero.greeting')}{" "}
             </span>
             <br></br>
-            <TypeAnimation
-              sequence={[
-                "Zeineb Eya Rahmani",
-                1500,
-                "QA Engineer",
-                1000,
-                "BI Engineer",
-                1000,
-                "Business Analyst",
-                1000,
-                "Data Engineer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <span className="inline-block">
+              <TypeAnimation
+                sequence={[
+                  "Zeineb Eya Rahmani",
+                  1500,
+                  "BI & QA Engineer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </span>
           </h1>
           <p className="text-light-text-secondary dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl leading-relaxed" dangerouslySetInnerHTML={{ __html: t('hero.description') }} />
           <div className="flex flex-col sm:flex-row gap-3">
