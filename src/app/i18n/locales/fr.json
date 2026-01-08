@@ -206,54 +206,45 @@
   },
   "experienceData": {
     "exp1": {
-      "title": "Ingénieure Assurance Qualité Logicielle",
-      "company": "Uvey",
-      "location": "Centre Urban Nord, Ariana, Tunisie",
-      "period": "Avril 2025 – Présent",
+      "title": "Ingénieure Assurance Qualité Logicielle & Analyste d'Affaires",
+      "company": "Wecraft",
+      "location": "Centre Urbain Nord, Ariana, Tunisie",
+      "period": "Octobre 2022 – Présent",
       "highlights": [
-        "Effectue des tests fonctionnels, de régression et d'API pour la plateforme de comptabilité SaaS (Quarkus, React)",
-        "Construit et maintient des tests automatisés avec Playwright et reporting Allure",
-        "Intègre et valide les fonctionnalités pilotées par l'IA en utilisant l'ingénierie de prompts",
-        "Surveille la santé du système avec les tableaux de bord Grafana et Prometheus",
-        "Gère les boards ClickUp et assure la traçabilité du cycle de vie des tâches"
+        "Projets : Uvey (SaaS Finance & Comptabilité IA) | Deepnrise (Industrie 4.0 QRQC) | Rektic (IA SEO & Génération de Contenu)",
+        "Responsable des activités QA sur plusieurs produits SaaS, assurant la qualité, l'exactitude des données et la stabilité des versions.",
+        "Validation des flux comptables alimentés par l'IA permettant le téléchargement de factures et relevés bancaires, l'extraction OCR, la classification automatisée des transactions et le rapprochement facture-transaction basé sur l'IA avec validation humaine.",
+        "Traduction des exigences comptables et commerciales en spécifications fonctionnelles, user stories et critères d'acceptation.",
+        "Conception et exécution de tests fonctionnels, de régression et d'intégration basés sur les risques pour les flux financiers critiques.",
+        "Création et maintenance de plus de 50 tests automatisés Playwright, intégrés dans les pipelines CI/CD GitLab.",
+        "Tests API et validation des données pour assurer la cohérence entre les services IA, les règles comptables et les rapports.",
+        "Réduction du temps de résolution des défauts de 30 % grâce à une meilleure priorisation et un meilleur suivi des défauts.",
+        "Analyse des logs avec Kibana et Elasticsearch pour identifier les causes profondes et prévenir les problèmes récurrents.",
+        "Création de tableaux de bord QA suivant l'exécution des tests, les tendances des défauts et les KPI de qualité pour soutenir les décisions de mise en production.",
+        "Support pour l'UAT, la documentation et la formation des utilisateurs finaux dans les cycles de livraison Agile."
       ]
     },
     "exp2": {
       "title": "Ingénieure Business Intelligence",
-      "company": "WeCraft",
-      "location": "Centre Urban Nord, Ariana, Tunisie",
-      "period": "Février 2024 – Septembre 2024",
+      "company": "Wecraft",
+      "location": "Centre Urbain Nord, Ariana, Tunisie",
+      "period": "Février 2024 – Présent",
       "highlights": [
-        "Conçu des pipelines ETL évolutifs avec Apache Airflow et dbt, augmentant l'efficacité de 40%",
-        "Implémenté des pipelines CI/CD utilisant Docker et GitLab CI",
-        "Centralisé les jeux de données financiers dans BigQuery pour une meilleure gouvernance des données",
-        "Implémenté la détection d'anomalies pilotée par ML, réduisant les incidents de fraude de 20%",
-        "Conçu des tableaux de bord interactifs améliorant l'efficacité de prise de décision de 30%"
+        "Conception de tableaux de bord de détection de fraude et d'analyse des risques (BigQuery, Looker), améliorant l'efficacité de la prise de décision de 30 %.",
+        "Mise en œuvre de pipelines ETL utilisant Apache Airflow et dbt, augmentant l'efficacité de l'intégration des données de 40 %.",
+        "Développement de modèles de données réutilisables et définition de KPI pour soutenir le suivi financier et des risques.",
+        "Automatisation des processus de réconciliation, réduisant le temps de traitement des données de 25 %."
       ]
     },
     "exp3": {
-      "title": "Ingénieure Assurance Qualité Logicielle",
-      "company": "WeCraft",
-      "location": "Centre Urban Nord, Ariana, Tunisie",
-      "period": "Octobre 2022 – Septembre 2024",
-      "highlights": [
-        "Exécuté 200+ cas de tests manuels/automatisés atteignant un taux d'identification de défauts de 90%",
-        "Utilisé Kibana et Elasticsearch pour une analyse complète des logs",
-        "Réduit le délai de résolution des défauts de 30% grâce à une documentation complète",
-        "Construit un tableau de bord de résolution de défauts en temps réel avec intégration Trello",
-        "Assisté dans le débogage de 50+ problèmes utilisant Quarkus et Angular"
-      ]
-    },
-    "exp4": {
       "title": "Stagiaire Analyste Assurance Qualité Logicielle",
-      "company": "Deepnrise",
-      "location": "Centre Urban Nord, Ariana, Tunisie",
+      "company": "Wecraft",
+      "location": "Centre Urbain Nord, Ariana, Tunisie",
       "period": "Juin 2022 – Août 2022",
       "highlights": [
-        "Examiné les spécifications système pour la plateforme Industrie 4.0",
-        "Exécuté 150+ cas de tests manuels/automatisés avec 95% d'adhérence à la qualité",
-        "Réduit le temps de correction des bugs de 25% grâce à des rapports détaillés",
-        "Effectué des tests post-lancement réduisant les défauts de 15%"
+        "Exécution de plus de 150 cas de tests manuels et automatisés, maintenant un taux de conformité qualité de 95 %.",
+        "Documentation des défauts et résultats de tests, contribuant à une réduction de 25 % du temps de correction des bugs.",
+        "Collaboration avec les développeurs pour le débogage et la validation sur des applications Quarkus (backend) et Angular (frontend)."
       ]
     }
   }

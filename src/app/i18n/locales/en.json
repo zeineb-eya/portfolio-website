@@ -206,54 +206,45 @@
   },
   "experienceData": {
     "exp1": {
-      "title": "Software Quality Assurance Engineer",
-      "company": "Uvey",
+      "title": "Software Quality Assurance Engineer & Business Analyst",
+      "company": "Wecraft",
       "location": "Centre Urban Nord, Ariana, Tunisia",
-      "period": "April 2025 – Present",
+      "period": "October 2022 – Present",
       "highlights": [
-        "Conduct functional, regression, and API testing for SaaS accounting platform (Quarkus, React)",
-        "Build and maintain automated tests using Playwright with Allure reporting",
-        "Integrate and validate AI-driven features using prompt engineering",
-        "Monitor system health with Grafana and Prometheus dashboards",
-        "Manage ClickUp boards and ensure traceable task lifecycles"
+        "Projects: Uvey (AI Accounting & Finance SaaS) | Deepnrise (Industry 4.0 QRQC) | Rektic (AI SEO & Content Generation)",
+        "Owned QA activities across multiple SaaS products, ensuring quality, data accuracy, and release stability.",
+        "Validated AI-powered accounting workflows enabling invoice and bank statement upload, OCR extraction, automated transaction classification, and AI-based invoice-to-transaction matching with human validation.",
+        "Translated accounting and business requirements into functional specifications, user stories, and acceptance criteria.",
+        "Designed and executed risk-based functional, regression, and integration tests for finance-critical workflows.",
+        "Built and maintained 50+ Playwright automated tests, integrated into GitLab CI/CD pipelines.",
+        "Performed API testing and data validation to ensure consistency between AI services, accounting rules, and reporting outputs.",
+        "Reduced defect resolution time by 30% through improved defect tracking and prioritization.",
+        "Analyzed logs using Kibana and Elasticsearch to identify root causes and prevent recurring issues.",
+        "Built QA dashboards tracking test execution, defect trends, and quality KPIs to support release decisions.",
+        "Supported UAT, documentation, and end-user training in Agile delivery cycles."
       ]
     },
     "exp2": {
-      "title": "Business Intelligence Engineer",
-      "company": "WeCraft",
+      "title": "Business Intelligence engineer",
+      "company": "Wecraft",
       "location": "Centre Urban Nord, Ariana, Tunisia",
-      "period": "February 2024 – September 2024",
+      "period": "February 2024 – Present",
       "highlights": [
-        "Designed scalable ETL pipelines with Apache Airflow and dbt, boosting efficiency by 40%",
-        "Implemented CI/CD pipelines using Docker and GitLab CI",
-        "Centralized financial datasets in BigQuery for enhanced data governance",
-        "Implemented ML-driven anomaly detection, reducing fraud incidents by 20%",
-        "Designed interactive dashboards improving decision-making efficiency by 30%"
+        "Design fraud detection and risk analysis dashboards (BigQuery, Looker), improving decision-making efficiency by 30%.",
+        "Implement ETL pipelines using Apache Airflow and dbt, increasing data integration efficiency by 40%.",
+        "Develop reusable data models and defined KPIs to support finance and risk monitoring.",
+        "Automate reconciliation processes, reducing data processing time by 25%."
       ]
     },
     "exp3": {
-      "title": "Software Quality Assurance Engineer",
-      "company": "WeCraft",
-      "location": "Centre Urban Nord, Ariana, Tunisia",
-      "period": "October 2022 – September 2024",
-      "highlights": [
-        "Executed 200+ manual/automated test cases achieving 90% defect-identification rate",
-        "Leveraged Kibana and Elasticsearch for comprehensive log analysis",
-        "Reduced defect resolution turnaround by 30% through comprehensive documentation",
-        "Built real-time defect-resolution dashboard with Trello integration",
-        "Assisted in debugging 50+ issues using Quarkus and Angular"
-      ]
-    },
-    "exp4": {
       "title": "Software Quality Assurance Analyst Intern",
-      "company": "Deepnrise",
+      "company": "Wecraft",
       "location": "Centre Urban Nord, Ariana, Tunisia",
       "period": "June 2022 – August 2022",
       "highlights": [
-        "Reviewed system specifications for Industry 4.0 platform",
-        "Executed 150+ manual/automated test cases with 95% quality adherence",
-        "Reduced bug-fix turnaround time by 25% through detailed reporting",
-        "Performed post-release testing cutting defects by 15%"
+        "Executed 150+ manual and automated test cases, maintaining a 95% quality compliance rate.",
+        "Documented defects and test results, contributing to a 25% reduction in bug-fix turnaround time.",
+        "Collaborated with developers on debugging and validation across Quarkus (backend) and Angular (frontend) applications."
       ]
     }
   }

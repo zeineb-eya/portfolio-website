@@ -33,15 +33,6 @@ const getExperiences = (t) => [
     period: t('experienceData.exp3.period'),
     current: false,
     highlights: t('experienceData.exp3.highlights')
-  },
-  {
-    id: 4,
-    title: t('experienceData.exp4.title'),
-    company: t('experienceData.exp4.company'),
-    location: t('experienceData.exp4.location'),
-    period: t('experienceData.exp4.period'),
-    current: false,
-    highlights: t('experienceData.exp4.highlights')
   }
 ];
 
